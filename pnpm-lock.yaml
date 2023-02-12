@@ -10,6 +10,7 @@ specifiers:
   '@types/jest': 29.4.0
   '@types/node': 14.18.36
   better-typescript-lib: 2.2.1
+  compare-versions: 6.0.0-rc.1
   cross-env: 7.0.3
   esbuild: 0.14.0
   eslint: 8.34.0
@@ -22,6 +23,7 @@ specifiers:
   typescript: 4.9.5
 
 dependencies:
+  compare-versions: 6.0.0-rc.1
   read-pkg-up: 9.1.0
 
 devDependencies:
@@ -2159,6 +2161,10 @@ packages:
     resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
     engines: {node: '>= 6'}
     dev: true
+
+  /compare-versions/6.0.0-rc.1:
+    resolution: {integrity: sha512-cFhkjbGY1jLFWIV7KegECbfuyYPxSGvgGkdkfM+ibboQDoPwg2FRHm5BSNTOApiauRBzJIQH7qvOJs2sW5ueKQ==}
+    dev: false
 
   /concat-map/0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}

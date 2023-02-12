@@ -4,6 +4,8 @@ import { readPackageUp } from "read-pkg-up";
 
 export type { NormalizedPackageJson } from "read-pkg-up";
 
+import { pkgcmp } from "./pkgcmp.js";
+
 export interface Result {
     /**
      * Path to package.json
@@ -17,10 +19,12 @@ export interface Result {
 
 export interface Options {
     func: (bundled: Result[]) => void | Promise<void>;
+    sort: boolean;
 }
 
 const defaultOptions = {
     func: () => {},
+    sort: true,
 } as const satisfies Options;
 
 const bundlesList: (options?: Partial<Options>) => Plugin = (options = {}) => {
@@ -51,6 +55,10 @@ const bundlesList: (options?: Partial<Options>) => Plugin = (options = {}) => {
                     packageJsonPath: it[0],
                     packageJson: it[1],
                 }));
+
+                if (opt.sort) {
+                    dependencies.sort((a, b) => pkgcmp(a.packageJson, b.packageJson));
+                }
 
                 await opt.func(dependencies);
             });
