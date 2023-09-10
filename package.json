@@ -55,7 +55,7 @@
     "typescript": "5.2.2"
   },
   "dependencies": {
-    "compare-versions": "6.0.0-rc.1",
+    "compare-versions": "6.1.0",
     "read-pkg-up": "9.1.0"
   },
   "peerDependencies": {

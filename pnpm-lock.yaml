@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   compare-versions:
-    specifier: 6.0.0-rc.1
-    version: 6.0.0-rc.1
+    specifier: 6.1.0
+    version: 6.1.0
   read-pkg-up:
     specifier: 9.1.0
     version: 9.1.0
@@ -2483,8 +2483,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /compare-versions@6.0.0-rc.1:
-    resolution: {integrity: sha512-cFhkjbGY1jLFWIV7KegECbfuyYPxSGvgGkdkfM+ibboQDoPwg2FRHm5BSNTOApiauRBzJIQH7qvOJs2sW5ueKQ==}
+  /compare-versions@6.1.0:
+    resolution: {integrity: sha512-LNZQXhqUvqUTotpZ00qLSaify3b4VFD588aRr8MKFw4CMUr98ytzCW5wDH5qx/DEY5kCDXcbcRuCqL0szEf2tg==}
     dev: false
 
   /concat-map@0.0.1:
