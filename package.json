@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-bundles-list",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Create a bundled packages list",
   "homepage": "https://github.com/tksst/esbuild-plugin-bundles-list",
   "repository": "github:tksst/esbuild-plugin-bundles-list",
