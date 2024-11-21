@@ -55,8 +55,8 @@
     "typescript": "5.6.3"
   },
   "dependencies": {
-    "compare-versions": "6.1.0",
-    "read-pkg-up": "9.1.0"
+    "compare-versions": "6.1.1",
+    "read-package-up": "11.0.0"
   },
   "peerDependencies": {
     "esbuild": "^0.14.0 || ^0.15.0 || ^0.16.0 || ^0.17.0"
